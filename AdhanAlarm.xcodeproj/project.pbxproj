@@ -1,0 +1,723 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		110CE4371EA3F1D400AB7244 /* PlayButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 110CE4341EA3F1D400AB7244 /* PlayButton.png */; };
+		110CE4381EA3F1D400AB7244 /* PlayButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 110CE4351EA3F1D400AB7244 /* PlayButton@2x.png */; };
+		110CE4391EA3F1D400AB7244 /* PlayButton@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 110CE4361EA3F1D400AB7244 /* PlayButton@3x.png */; };
+		110CE43D1EA3F1E700AB7244 /* StopButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 110CE43A1EA3F1E700AB7244 /* StopButton.png */; };
+		110CE43E1EA3F1E700AB7244 /* StopButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 110CE43B1EA3F1E700AB7244 /* StopButton@2x.png */; };
+		110CE43F1EA3F1E700AB7244 /* StopButton@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 110CE43C1EA3F1E700AB7244 /* StopButton@3x.png */; };
+		118A66C61EA474C400EBC9FD /* email.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 118A66C31EA474C400EBC9FD /* email.jpg */; };
+		118A66C71EA474C400EBC9FD /* email@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 118A66C41EA474C400EBC9FD /* email@2x.jpg */; };
+		118A66C81EA474C400EBC9FD /* email@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 118A66C51EA474C400EBC9FD /* email@3x.jpg */; };
+		118A66CC1EA47A1900EBC9FD /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 118A66C91EA47A1900EBC9FD /* 1.jpg */; };
+		118A66CD1EA47A1900EBC9FD /* 1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 118A66CA1EA47A1900EBC9FD /* 1@2x.jpg */; };
+		118A66CE1EA47A1900EBC9FD /* 1@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 118A66CB1EA47A1900EBC9FD /* 1@3x.jpg */; };
+		11BDBB041EA421E000F441A0 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 11BDBB031EA421E000F441A0 /* settings.png */; };
+		11BDBB061EA421F800F441A0 /* newAlarm.png in Resources */ = {isa = PBXBuildFile; fileRef = 11BDBB051EA421F800F441A0 /* newAlarm.png */; };
+		11BDBB081EA4223400F441A0 /* Alarmnew2.png in Resources */ = {isa = PBXBuildFile; fileRef = 11BDBB071EA4223400F441A0 /* Alarmnew2.png */; };
+		11BDBB0A1EA432EF00F441A0 /* WindowExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BDBB091EA432EF00F441A0 /* WindowExtension.swift */; };
+		11EE54141E9EADE30023FCDE /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EE54131E9EADE30023FCDE /* DateExtension.swift */; };
+		11EE54161E9EDEC70023FCDE /* bye-bye.wav in Resources */ = {isa = PBXBuildFile; fileRef = 11EE54151E9EDEC70023FCDE /* bye-bye.wav */; };
+		11EE541D1EA06CEE0023FCDE /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 11EE541C1EA06CEE0023FCDE /* Settings.bundle */; };
+		11EE541F1EA06DCD0023FCDE /* SettingsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EE541E1EA06DCD0023FCDE /* SettingsTVC.swift */; };
+		11EE54211EA112790023FCDE /* BackgoundVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EE54201EA112790023FCDE /* BackgoundVC.swift */; };
+		11EE54231EA112F30023FCDE /* SoundsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EE54221EA112F30023FCDE /* SoundsVC.swift */; };
+		11EE54541EA1C83F0023FCDE /* Emam Reza(a) Shrine1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11EE54271EA1C83F0023FCDE /* Emam Reza(a) Shrine1.jpg */; };
+		11EE54551EA1C83F0023FCDE /* Emam Reza(a) Shrine1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11EE54281EA1C83F0023FCDE /* Emam Reza(a) Shrine1@2x.jpg */; };
+		11EE54561E9C2A26009A3A8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EE54551E9C2A26009A3A8E /* AppDelegate.swift */; };
+		11EE54561EA1C83F0023FCDE /* Emam Reza(a) Shrine1@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11EE54291EA1C83F0023FCDE /* Emam Reza(a) Shrine1@3x.jpg */; };
+		11EE54571EA1C83F0023FCDE /* Emam Reza(a) Shrine2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11EE542A1EA1C83F0023FCDE /* Emam Reza(a) Shrine2.jpg */; };
+		11EE54581E9C2A26009A3A8E /* AlarmTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EE54571E9C2A26009A3A8E /* AlarmTVC.swift */; };
+		11EE54581EA1C83F0023FCDE /* Emam Reza(a) Shrine2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11EE542B1EA1C83F0023FCDE /* Emam Reza(a) Shrine2@2x.jpg */; };
+		11EE54591EA1C83F0023FCDE /* Emam Reza(a) Shrine2@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11EE542C1EA1C83F0023FCDE /* Emam Reza(a) Shrine2@3x.jpg */; };
+		11EE545A1EA1C83F0023FCDE /* Hasht Behesht.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11EE542D1EA1C83F0023FCDE /* Hasht Behesht.jpg */; };
+		11EE545B1E9C2A27009A3A8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11EE54591E9C2A27009A3A8E /* Main.storyboard */; };
+		11EE545B1EA1C83F0023FCDE /* Hasht Behesht@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11EE542E1EA1C83F0023FCDE /* Hasht Behesht@2x.jpg */; };
+		11EE545C1EA1C83F0023FCDE /* Hasht Behesht@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11EE542F1EA1C83F0023FCDE /* Hasht Behesht@3x.jpg */; };
+		11EE545D1E9C2A27009A3A8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11EE545C1E9C2A27009A3A8E /* Assets.xcassets */; };
+		11EE545D1EA1C83F0023FCDE /* Mosque3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11EE54301EA1C83F0023FCDE /* Mosque3.jpg */; };
+		11EE545E1EA1C83F0023FCDE /* Mosque3@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11EE54311EA1C83F0023FCDE /* Mosque3@2x.jpg */; };
+		11EE545F1EA1C83F0023FCDE /* Mosque3@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11EE54321EA1C83F0023FCDE /* Mosque3@3x.jpg */; };
+		11EE54601E9C2A27009A3A8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11EE545E1E9C2A27009A3A8E /* LaunchScreen.storyboard */; };
+		11EE54601EA1C83F0023FCDE /* Mosque4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11EE54331EA1C83F0023FCDE /* Mosque4.jpg */; };
+		11EE54611EA1C83F0023FCDE /* Mosque4@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11EE54341EA1C83F0023FCDE /* Mosque4@2x.jpg */; };
+		11EE54621EA1C83F0023FCDE /* Mosque4@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11EE54351EA1C83F0023FCDE /* Mosque4@3x.jpg */; };
+		11EE54631EA1C83F0023FCDE /* Mosque5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11EE54361EA1C83F0023FCDE /* Mosque5.jpg */; };
+		11EE54641EA1C83F0023FCDE /* Mosque5@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11EE54371EA1C83F0023FCDE /* Mosque5@2x.jpg */; };
+		11EE54651EA1C83F0023FCDE /* Mosque5@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11EE54381EA1C83F0023FCDE /* Mosque5@3x.jpg */; };
+		11EE54661EA1C83F0023FCDE /* Mosque7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11EE54391EA1C83F0023FCDE /* Mosque7.jpg */; };
+		11EE54671EA1C83F0023FCDE /* Mosque7@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11EE543A1EA1C83F0023FCDE /* Mosque7@2x.jpg */; };
+		11EE54681E9C2B2A009A3A8E /* SettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EE54671E9C2B2A009A3A8E /* SettingVC.swift */; };
+		11EE54681EA1C83F0023FCDE /* Mosque7@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11EE543B1EA1C83F0023FCDE /* Mosque7@3x.jpg */; };
+		11EE54691EA1C83F0023FCDE /* Mosque9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11EE543C1EA1C83F0023FCDE /* Mosque9.jpg */; };
+		11EE546A1E9C2BD0009A3A8E /* CellVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EE54691E9C2BD0009A3A8E /* CellVC.swift */; };
+		11EE546A1EA1C83F0023FCDE /* Mosque9@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11EE543D1EA1C83F0023FCDE /* Mosque9@2x.jpg */; };
+		11EE546B1EA1C83F0023FCDE /* Mosque9@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11EE543E1EA1C83F0023FCDE /* Mosque9@3x.jpg */; };
+		11EE546C1E9C2E4B009A3A8E /* AddAlarmVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EE546B1E9C2E4B009A3A8E /* AddAlarmVC.swift */; };
+		11EE546C1EA1C83F0023FCDE /* Mosque12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11EE543F1EA1C83F0023FCDE /* Mosque12.jpg */; };
+		11EE546D1EA1C83F0023FCDE /* Mosque12@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11EE54401EA1C83F0023FCDE /* Mosque12@2x.jpg */; };
+		11EE546E1E9C7344009A3A8E /* Alarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EE546D1E9C7344009A3A8E /* Alarm.swift */; };
+		11EE546E1EA1C83F0023FCDE /* Mosque12@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11EE54411EA1C83F0023FCDE /* Mosque12@3x.jpg */; };
+		11EE546F1EA1C83F0023FCDE /* PaintingFarshchian3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11EE54421EA1C83F0023FCDE /* PaintingFarshchian3.jpg */; };
+		11EE54701E9DC6DE009A3A8E /* EditAlarmVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EE546F1E9DC6DE009A3A8E /* EditAlarmVC.swift */; };
+		11EE54701EA1C83F0023FCDE /* PaintingFarshchian3@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11EE54431EA1C83F0023FCDE /* PaintingFarshchian3@2x.jpg */; };
+		11EE54711EA1C83F0023FCDE /* PaintingFarshchian3@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11EE54441EA1C83F0023FCDE /* PaintingFarshchian3@3x.jpg */; };
+		11EE54721EA1C83F0023FCDE /* PaintingFarshchian5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11EE54451EA1C83F0023FCDE /* PaintingFarshchian5.jpg */; };
+		11EE54731EA1C83F0023FCDE /* PaintingFarshchian5@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11EE54461EA1C83F0023FCDE /* PaintingFarshchian5@2x.jpg */; };
+		11EE54741EA1C83F0023FCDE /* PaintingFarshchian5@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11EE54471EA1C83F0023FCDE /* PaintingFarshchian5@3x.jpg */; };
+		11EE54751EA1C83F0023FCDE /* PaintingFarshchian6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11EE54481EA1C83F0023FCDE /* PaintingFarshchian6.jpg */; };
+		11EE54761EA1C83F0023FCDE /* PaintingFarshchian6@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11EE54491EA1C83F0023FCDE /* PaintingFarshchian6@2x.jpg */; };
+		11EE54771EA1C83F0023FCDE /* PaintingFarshchian6@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11EE544A1EA1C83F0023FCDE /* PaintingFarshchian6@3x.jpg */; };
+		11EE54781EA1C83F0023FCDE /* PaintingFarshchian7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11EE544B1EA1C83F0023FCDE /* PaintingFarshchian7.jpg */; };
+		11EE54791EA1C83F0023FCDE /* PaintingFarshchian7@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11EE544C1EA1C83F0023FCDE /* PaintingFarshchian7@2x.jpg */; };
+		11EE547A1EA1C83F0023FCDE /* PaintingFarshchian7@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11EE544D1EA1C83F0023FCDE /* PaintingFarshchian7@3x.jpg */; };
+		11EE547B1EA1C83F0023FCDE /* PaintingFarshchian8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11EE544E1EA1C83F0023FCDE /* PaintingFarshchian8.jpg */; };
+		11EE547C1EA1C83F0023FCDE /* PaintingFarshchian8@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11EE544F1EA1C83F0023FCDE /* PaintingFarshchian8@2x.jpg */; };
+		11EE547D1EA1C83F0023FCDE /* PaintingFarshchian8@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11EE54501EA1C83F0023FCDE /* PaintingFarshchian8@3x.jpg */; };
+		11EE547E1EA1C83F0023FCDE /* Wall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11EE54511EA1C83F0023FCDE /* Wall.jpg */; };
+		11EE547F1EA1C83F0023FCDE /* Wall@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11EE54521EA1C83F0023FCDE /* Wall@2x.jpg */; };
+		11EE54801EA1C83F0023FCDE /* Wall@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11EE54531EA1C83F0023FCDE /* Wall@3x.jpg */; };
+		11EE548F1EA1D34D0023FCDE /* Aghati.wav in Resources */ = {isa = PBXBuildFile; fileRef = 11EE54821EA1D34D0023FCDE /* Aghati.wav */; };
+		11EE54901EA1D34D0023FCDE /* Ghelvash.wav in Resources */ = {isa = PBXBuildFile; fileRef = 11EE54831EA1D34D0023FCDE /* Ghelvash.wav */; };
+		11EE54911EA1D34D0023FCDE /* Kazem-Zadeh.wav in Resources */ = {isa = PBXBuildFile; fileRef = 11EE54841EA1D34D0023FCDE /* Kazem-Zadeh.wav */; };
+		11EE54931EA1D34D0023FCDE /* Moazzen-Zadeh Ardabili.wav in Resources */ = {isa = PBXBuildFile; fileRef = 11EE54861EA1D34D0023FCDE /* Moazzen-Zadeh Ardabili.wav */; };
+		11EE54941EA1D34D0023FCDE /* Mohammad-Zadeh.wav in Resources */ = {isa = PBXBuildFile; fileRef = 11EE54871EA1D34D0023FCDE /* Mohammad-Zadeh.wav */; };
+		11EE54951EA1D34D0023FCDE /* Rezaeian.wav in Resources */ = {isa = PBXBuildFile; fileRef = 11EE54881EA1D34D0023FCDE /* Rezaeian.wav */; };
+		11EE54961EA1D34D0023FCDE /* Rowhani-Nejad.wav in Resources */ = {isa = PBXBuildFile; fileRef = 11EE54891EA1D34D0023FCDE /* Rowhani-Nejad.wav */; };
+		11EE54971EA1D34D0023FCDE /* Salimi.wav in Resources */ = {isa = PBXBuildFile; fileRef = 11EE548A1EA1D34D0023FCDE /* Salimi.wav */; };
+		11EE54981EA1D34D0023FCDE /* Sharif.wav in Resources */ = {isa = PBXBuildFile; fileRef = 11EE548B1EA1D34D0023FCDE /* Sharif.wav */; };
+		11EE54991EA1D34D0023FCDE /* Sobhdel.wav in Resources */ = {isa = PBXBuildFile; fileRef = 11EE548C1EA1D34D0023FCDE /* Sobhdel.wav */; };
+		11EE549A1EA1D34D0023FCDE /* Tasvieh-Chi.wav in Resources */ = {isa = PBXBuildFile; fileRef = 11EE548D1EA1D34D0023FCDE /* Tasvieh-Chi.wav */; };
+		11EE549B1EA1D34D0023FCDE /* Tookhi.wav in Resources */ = {isa = PBXBuildFile; fileRef = 11EE548E1EA1D34D0023FCDE /* Tookhi.wav */; };
+		11EE54A91EA1D3630023FCDE /* Abdul-Basit.wav in Resources */ = {isa = PBXBuildFile; fileRef = 11EE549C1EA1D3630023FCDE /* Abdul-Basit.wav */; };
+		11EE54AA1EA1D3630023FCDE /* Abdul-Ghaffar.wav in Resources */ = {isa = PBXBuildFile; fileRef = 11EE549D1EA1D3630023FCDE /* Abdul-Ghaffar.wav */; };
+		11EE54AB1EA1D3630023FCDE /* Abdul-Hakam.wav in Resources */ = {isa = PBXBuildFile; fileRef = 11EE549E1EA1D3630023FCDE /* Abdul-Hakam.wav */; };
+		11EE54AC1EA1D3630023FCDE /* Adhan Alaqsa.wav in Resources */ = {isa = PBXBuildFile; fileRef = 11EE549F1EA1D3630023FCDE /* Adhan Alaqsa.wav */; };
+		11EE54AD1EA1D3630023FCDE /* Adhan Egypt.wav in Resources */ = {isa = PBXBuildFile; fileRef = 11EE54A01EA1D3630023FCDE /* Adhan Egypt.wav */; };
+		11EE54AE1EA1D3630023FCDE /* Adhan Madina.wav in Resources */ = {isa = PBXBuildFile; fileRef = 11EE54A11EA1D3630023FCDE /* Adhan Madina.wav */; };
+		11EE54AF1EA1D3630023FCDE /* Adhan Makkah.wav in Resources */ = {isa = PBXBuildFile; fileRef = 11EE54A21EA1D3630023FCDE /* Adhan Makkah.wav */; };
+		11EE54B01EA1D3630023FCDE /* Al-Hossaini.wav in Resources */ = {isa = PBXBuildFile; fileRef = 11EE54A31EA1D3630023FCDE /* Al-Hossaini.wav */; };
+		11EE54B11EA1D3630023FCDE /* Hafez.wav in Resources */ = {isa = PBXBuildFile; fileRef = 11EE54A41EA1D3630023FCDE /* Hafez.wav */; };
+		11EE54B21EA1D3630023FCDE /* Menshavi.wav in Resources */ = {isa = PBXBuildFile; fileRef = 11EE54A51EA1D3630023FCDE /* Menshavi.wav */; };
+		11EE54B31EA1D3630023FCDE /* Naghshbandi.wav in Resources */ = {isa = PBXBuildFile; fileRef = 11EE54A61EA1D3630023FCDE /* Naghshbandi.wav */; };
+		11EE54B41EA1D3630023FCDE /* Sharif Doman.wav in Resources */ = {isa = PBXBuildFile; fileRef = 11EE54A71EA1D3630023FCDE /* Sharif Doman.wav */; };
+		11EE54B51EA1D3630023FCDE /* Yusuf Islam.wav in Resources */ = {isa = PBXBuildFile; fileRef = 11EE54A81EA1D3630023FCDE /* Yusuf Islam.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		110CE4341EA3F1D400AB7244 /* PlayButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlayButton.png; sourceTree = "<group>"; };
+		110CE4351EA3F1D400AB7244 /* PlayButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PlayButton@2x.png"; sourceTree = "<group>"; };
+		110CE4361EA3F1D400AB7244 /* PlayButton@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PlayButton@3x.png"; sourceTree = "<group>"; };
+		110CE43A1EA3F1E700AB7244 /* StopButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StopButton.png; sourceTree = "<group>"; };
+		110CE43B1EA3F1E700AB7244 /* StopButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "StopButton@2x.png"; sourceTree = "<group>"; };
+		110CE43C1EA3F1E700AB7244 /* StopButton@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "StopButton@3x.png"; sourceTree = "<group>"; };
+		118A66C31EA474C400EBC9FD /* email.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = email.jpg; sourceTree = "<group>"; };
+		118A66C41EA474C400EBC9FD /* email@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "email@2x.jpg"; sourceTree = "<group>"; };
+		118A66C51EA474C400EBC9FD /* email@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "email@3x.jpg"; sourceTree = "<group>"; };
+		118A66C91EA47A1900EBC9FD /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		118A66CA1EA47A1900EBC9FD /* 1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1@2x.jpg"; sourceTree = "<group>"; };
+		118A66CB1EA47A1900EBC9FD /* 1@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1@3x.jpg"; sourceTree = "<group>"; };
+		11BDBB031EA421E000F441A0 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		11BDBB051EA421F800F441A0 /* newAlarm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newAlarm.png; sourceTree = "<group>"; };
+		11BDBB071EA4223400F441A0 /* Alarmnew2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Alarmnew2.png; sourceTree = "<group>"; };
+		11BDBB091EA432EF00F441A0 /* WindowExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowExtension.swift; sourceTree = "<group>"; };
+		11EE54131E9EADE30023FCDE /* DateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		11EE54151E9EDEC70023FCDE /* bye-bye.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "bye-bye.wav"; sourceTree = "<group>"; };
+		11EE54191E9EE7980023FCDE /* AdhanAlarm.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AdhanAlarm.entitlements; sourceTree = "<group>"; };
+		11EE541C1EA06CEE0023FCDE /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		11EE541E1EA06DCD0023FCDE /* SettingsTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTVC.swift; sourceTree = "<group>"; };
+		11EE54201EA112790023FCDE /* BackgoundVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgoundVC.swift; sourceTree = "<group>"; };
+		11EE54221EA112F30023FCDE /* SoundsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundsVC.swift; sourceTree = "<group>"; };
+		11EE54271EA1C83F0023FCDE /* Emam Reza(a) Shrine1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Emam Reza(a) Shrine1.jpg"; sourceTree = "<group>"; };
+		11EE54281EA1C83F0023FCDE /* Emam Reza(a) Shrine1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Emam Reza(a) Shrine1@2x.jpg"; sourceTree = "<group>"; };
+		11EE54291EA1C83F0023FCDE /* Emam Reza(a) Shrine1@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Emam Reza(a) Shrine1@3x.jpg"; sourceTree = "<group>"; };
+		11EE542A1EA1C83F0023FCDE /* Emam Reza(a) Shrine2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Emam Reza(a) Shrine2.jpg"; sourceTree = "<group>"; };
+		11EE542B1EA1C83F0023FCDE /* Emam Reza(a) Shrine2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Emam Reza(a) Shrine2@2x.jpg"; sourceTree = "<group>"; };
+		11EE542C1EA1C83F0023FCDE /* Emam Reza(a) Shrine2@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Emam Reza(a) Shrine2@3x.jpg"; sourceTree = "<group>"; };
+		11EE542D1EA1C83F0023FCDE /* Hasht Behesht.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Hasht Behesht.jpg"; sourceTree = "<group>"; };
+		11EE542E1EA1C83F0023FCDE /* Hasht Behesht@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Hasht Behesht@2x.jpg"; sourceTree = "<group>"; };
+		11EE542F1EA1C83F0023FCDE /* Hasht Behesht@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Hasht Behesht@3x.jpg"; sourceTree = "<group>"; };
+		11EE54301EA1C83F0023FCDE /* Mosque3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mosque3.jpg; sourceTree = "<group>"; };
+		11EE54311EA1C83F0023FCDE /* Mosque3@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mosque3@2x.jpg"; sourceTree = "<group>"; };
+		11EE54321EA1C83F0023FCDE /* Mosque3@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mosque3@3x.jpg"; sourceTree = "<group>"; };
+		11EE54331EA1C83F0023FCDE /* Mosque4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mosque4.jpg; sourceTree = "<group>"; };
+		11EE54341EA1C83F0023FCDE /* Mosque4@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mosque4@2x.jpg"; sourceTree = "<group>"; };
+		11EE54351EA1C83F0023FCDE /* Mosque4@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mosque4@3x.jpg"; sourceTree = "<group>"; };
+		11EE54361EA1C83F0023FCDE /* Mosque5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mosque5.jpg; sourceTree = "<group>"; };
+		11EE54371EA1C83F0023FCDE /* Mosque5@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mosque5@2x.jpg"; sourceTree = "<group>"; };
+		11EE54381EA1C83F0023FCDE /* Mosque5@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mosque5@3x.jpg"; sourceTree = "<group>"; };
+		11EE54391EA1C83F0023FCDE /* Mosque7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mosque7.jpg; sourceTree = "<group>"; };
+		11EE543A1EA1C83F0023FCDE /* Mosque7@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mosque7@2x.jpg"; sourceTree = "<group>"; };
+		11EE543B1EA1C83F0023FCDE /* Mosque7@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mosque7@3x.jpg"; sourceTree = "<group>"; };
+		11EE543C1EA1C83F0023FCDE /* Mosque9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mosque9.jpg; sourceTree = "<group>"; };
+		11EE543D1EA1C83F0023FCDE /* Mosque9@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mosque9@2x.jpg"; sourceTree = "<group>"; };
+		11EE543E1EA1C83F0023FCDE /* Mosque9@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mosque9@3x.jpg"; sourceTree = "<group>"; };
+		11EE543F1EA1C83F0023FCDE /* Mosque12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mosque12.jpg; sourceTree = "<group>"; };
+		11EE54401EA1C83F0023FCDE /* Mosque12@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mosque12@2x.jpg"; sourceTree = "<group>"; };
+		11EE54411EA1C83F0023FCDE /* Mosque12@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mosque12@3x.jpg"; sourceTree = "<group>"; };
+		11EE54421EA1C83F0023FCDE /* PaintingFarshchian3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PaintingFarshchian3.jpg; sourceTree = "<group>"; };
+		11EE54431EA1C83F0023FCDE /* PaintingFarshchian3@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "PaintingFarshchian3@2x.jpg"; sourceTree = "<group>"; };
+		11EE54441EA1C83F0023FCDE /* PaintingFarshchian3@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "PaintingFarshchian3@3x.jpg"; sourceTree = "<group>"; };
+		11EE54451EA1C83F0023FCDE /* PaintingFarshchian5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PaintingFarshchian5.jpg; sourceTree = "<group>"; };
+		11EE54461EA1C83F0023FCDE /* PaintingFarshchian5@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "PaintingFarshchian5@2x.jpg"; sourceTree = "<group>"; };
+		11EE54471EA1C83F0023FCDE /* PaintingFarshchian5@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "PaintingFarshchian5@3x.jpg"; sourceTree = "<group>"; };
+		11EE54481EA1C83F0023FCDE /* PaintingFarshchian6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PaintingFarshchian6.jpg; sourceTree = "<group>"; };
+		11EE54491EA1C83F0023FCDE /* PaintingFarshchian6@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "PaintingFarshchian6@2x.jpg"; sourceTree = "<group>"; };
+		11EE544A1EA1C83F0023FCDE /* PaintingFarshchian6@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "PaintingFarshchian6@3x.jpg"; sourceTree = "<group>"; };
+		11EE544B1EA1C83F0023FCDE /* PaintingFarshchian7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PaintingFarshchian7.jpg; sourceTree = "<group>"; };
+		11EE544C1EA1C83F0023FCDE /* PaintingFarshchian7@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "PaintingFarshchian7@2x.jpg"; sourceTree = "<group>"; };
+		11EE544D1EA1C83F0023FCDE /* PaintingFarshchian7@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "PaintingFarshchian7@3x.jpg"; sourceTree = "<group>"; };
+		11EE544E1EA1C83F0023FCDE /* PaintingFarshchian8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PaintingFarshchian8.jpg; sourceTree = "<group>"; };
+		11EE544F1EA1C83F0023FCDE /* PaintingFarshchian8@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "PaintingFarshchian8@2x.jpg"; sourceTree = "<group>"; };
+		11EE54501EA1C83F0023FCDE /* PaintingFarshchian8@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "PaintingFarshchian8@3x.jpg"; sourceTree = "<group>"; };
+		11EE54511EA1C83F0023FCDE /* Wall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Wall.jpg; sourceTree = "<group>"; };
+		11EE54521E9C2A26009A3A8E /* AdhanAlarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdhanAlarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11EE54521EA1C83F0023FCDE /* Wall@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Wall@2x.jpg"; sourceTree = "<group>"; };
+		11EE54531EA1C83F0023FCDE /* Wall@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Wall@3x.jpg"; sourceTree = "<group>"; };
+		11EE54551E9C2A26009A3A8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		11EE54571E9C2A26009A3A8E /* AlarmTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmTVC.swift; sourceTree = "<group>"; };
+		11EE545A1E9C2A27009A3A8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		11EE545C1E9C2A27009A3A8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11EE545F1E9C2A27009A3A8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		11EE54611E9C2A27009A3A8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11EE54671E9C2B2A009A3A8E /* SettingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingVC.swift; sourceTree = "<group>"; };
+		11EE54691E9C2BD0009A3A8E /* CellVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellVC.swift; sourceTree = "<group>"; };
+		11EE546B1E9C2E4B009A3A8E /* AddAlarmVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddAlarmVC.swift; sourceTree = "<group>"; };
+		11EE546D1E9C7344009A3A8E /* Alarm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alarm.swift; sourceTree = "<group>"; };
+		11EE546F1E9DC6DE009A3A8E /* EditAlarmVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditAlarmVC.swift; sourceTree = "<group>"; };
+		11EE54821EA1D34D0023FCDE /* Aghati.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Aghati.wav; sourceTree = "<group>"; };
+		11EE54831EA1D34D0023FCDE /* Ghelvash.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Ghelvash.wav; sourceTree = "<group>"; };
+		11EE54841EA1D34D0023FCDE /* Kazem-Zadeh.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Kazem-Zadeh.wav"; sourceTree = "<group>"; };
+		11EE54861EA1D34D0023FCDE /* Moazzen-Zadeh Ardabili.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Moazzen-Zadeh Ardabili.wav"; sourceTree = "<group>"; };
+		11EE54871EA1D34D0023FCDE /* Mohammad-Zadeh.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Mohammad-Zadeh.wav"; sourceTree = "<group>"; };
+		11EE54881EA1D34D0023FCDE /* Rezaeian.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Rezaeian.wav; sourceTree = "<group>"; };
+		11EE54891EA1D34D0023FCDE /* Rowhani-Nejad.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Rowhani-Nejad.wav"; sourceTree = "<group>"; };
+		11EE548A1EA1D34D0023FCDE /* Salimi.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Salimi.wav; sourceTree = "<group>"; };
+		11EE548B1EA1D34D0023FCDE /* Sharif.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Sharif.wav; sourceTree = "<group>"; };
+		11EE548C1EA1D34D0023FCDE /* Sobhdel.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Sobhdel.wav; sourceTree = "<group>"; };
+		11EE548D1EA1D34D0023FCDE /* Tasvieh-Chi.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Tasvieh-Chi.wav"; sourceTree = "<group>"; };
+		11EE548E1EA1D34D0023FCDE /* Tookhi.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Tookhi.wav; sourceTree = "<group>"; };
+		11EE549C1EA1D3630023FCDE /* Abdul-Basit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Abdul-Basit.wav"; sourceTree = "<group>"; };
+		11EE549D1EA1D3630023FCDE /* Abdul-Ghaffar.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Abdul-Ghaffar.wav"; sourceTree = "<group>"; };
+		11EE549E1EA1D3630023FCDE /* Abdul-Hakam.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Abdul-Hakam.wav"; sourceTree = "<group>"; };
+		11EE549F1EA1D3630023FCDE /* Adhan Alaqsa.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Adhan Alaqsa.wav"; sourceTree = "<group>"; };
+		11EE54A01EA1D3630023FCDE /* Adhan Egypt.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Adhan Egypt.wav"; sourceTree = "<group>"; };
+		11EE54A11EA1D3630023FCDE /* Adhan Madina.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Adhan Madina.wav"; sourceTree = "<group>"; };
+		11EE54A21EA1D3630023FCDE /* Adhan Makkah.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Adhan Makkah.wav"; sourceTree = "<group>"; };
+		11EE54A31EA1D3630023FCDE /* Al-Hossaini.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Al-Hossaini.wav"; sourceTree = "<group>"; };
+		11EE54A41EA1D3630023FCDE /* Hafez.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Hafez.wav; sourceTree = "<group>"; };
+		11EE54A51EA1D3630023FCDE /* Menshavi.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Menshavi.wav; sourceTree = "<group>"; };
+		11EE54A61EA1D3630023FCDE /* Naghshbandi.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Naghshbandi.wav; sourceTree = "<group>"; };
+		11EE54A71EA1D3630023FCDE /* Sharif Doman.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Sharif Doman.wav"; sourceTree = "<group>"; };
+		11EE54A81EA1D3630023FCDE /* Yusuf Islam.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Yusuf Islam.wav"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11EE544F1E9C2A26009A3A8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11EE54261EA1C82A0023FCDE /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				118A66C91EA47A1900EBC9FD /* 1.jpg */,
+				118A66CA1EA47A1900EBC9FD /* 1@2x.jpg */,
+				118A66CB1EA47A1900EBC9FD /* 1@3x.jpg */,
+				118A66C31EA474C400EBC9FD /* email.jpg */,
+				118A66C41EA474C400EBC9FD /* email@2x.jpg */,
+				118A66C51EA474C400EBC9FD /* email@3x.jpg */,
+				110CE4341EA3F1D400AB7244 /* PlayButton.png */,
+				110CE4351EA3F1D400AB7244 /* PlayButton@2x.png */,
+				110CE4361EA3F1D400AB7244 /* PlayButton@3x.png */,
+				110CE43A1EA3F1E700AB7244 /* StopButton.png */,
+				110CE43B1EA3F1E700AB7244 /* StopButton@2x.png */,
+				110CE43C1EA3F1E700AB7244 /* StopButton@3x.png */,
+				11BDBB071EA4223400F441A0 /* Alarmnew2.png */,
+				11EE54271EA1C83F0023FCDE /* Emam Reza(a) Shrine1.jpg */,
+				11EE54281EA1C83F0023FCDE /* Emam Reza(a) Shrine1@2x.jpg */,
+				11EE54291EA1C83F0023FCDE /* Emam Reza(a) Shrine1@3x.jpg */,
+				11EE542A1EA1C83F0023FCDE /* Emam Reza(a) Shrine2.jpg */,
+				11EE542B1EA1C83F0023FCDE /* Emam Reza(a) Shrine2@2x.jpg */,
+				11EE542C1EA1C83F0023FCDE /* Emam Reza(a) Shrine2@3x.jpg */,
+				11EE542D1EA1C83F0023FCDE /* Hasht Behesht.jpg */,
+				11EE542E1EA1C83F0023FCDE /* Hasht Behesht@2x.jpg */,
+				11EE542F1EA1C83F0023FCDE /* Hasht Behesht@3x.jpg */,
+				11EE54301EA1C83F0023FCDE /* Mosque3.jpg */,
+				11EE54311EA1C83F0023FCDE /* Mosque3@2x.jpg */,
+				11EE54321EA1C83F0023FCDE /* Mosque3@3x.jpg */,
+				11EE54331EA1C83F0023FCDE /* Mosque4.jpg */,
+				11EE54341EA1C83F0023FCDE /* Mosque4@2x.jpg */,
+				11EE54351EA1C83F0023FCDE /* Mosque4@3x.jpg */,
+				11EE54361EA1C83F0023FCDE /* Mosque5.jpg */,
+				11EE54371EA1C83F0023FCDE /* Mosque5@2x.jpg */,
+				11EE54381EA1C83F0023FCDE /* Mosque5@3x.jpg */,
+				11EE54391EA1C83F0023FCDE /* Mosque7.jpg */,
+				11EE543A1EA1C83F0023FCDE /* Mosque7@2x.jpg */,
+				11EE543B1EA1C83F0023FCDE /* Mosque7@3x.jpg */,
+				11EE543C1EA1C83F0023FCDE /* Mosque9.jpg */,
+				11EE543D1EA1C83F0023FCDE /* Mosque9@2x.jpg */,
+				11EE543E1EA1C83F0023FCDE /* Mosque9@3x.jpg */,
+				11EE543F1EA1C83F0023FCDE /* Mosque12.jpg */,
+				11EE54401EA1C83F0023FCDE /* Mosque12@2x.jpg */,
+				11EE54411EA1C83F0023FCDE /* Mosque12@3x.jpg */,
+				11EE54421EA1C83F0023FCDE /* PaintingFarshchian3.jpg */,
+				11EE54431EA1C83F0023FCDE /* PaintingFarshchian3@2x.jpg */,
+				11EE54441EA1C83F0023FCDE /* PaintingFarshchian3@3x.jpg */,
+				11EE54451EA1C83F0023FCDE /* PaintingFarshchian5.jpg */,
+				11EE54461EA1C83F0023FCDE /* PaintingFarshchian5@2x.jpg */,
+				11EE54471EA1C83F0023FCDE /* PaintingFarshchian5@3x.jpg */,
+				11EE54481EA1C83F0023FCDE /* PaintingFarshchian6.jpg */,
+				11EE54491EA1C83F0023FCDE /* PaintingFarshchian6@2x.jpg */,
+				11EE544A1EA1C83F0023FCDE /* PaintingFarshchian6@3x.jpg */,
+				11EE544B1EA1C83F0023FCDE /* PaintingFarshchian7.jpg */,
+				11EE544C1EA1C83F0023FCDE /* PaintingFarshchian7@2x.jpg */,
+				11EE544D1EA1C83F0023FCDE /* PaintingFarshchian7@3x.jpg */,
+				11EE544E1EA1C83F0023FCDE /* PaintingFarshchian8.jpg */,
+				11EE544F1EA1C83F0023FCDE /* PaintingFarshchian8@2x.jpg */,
+				11EE54501EA1C83F0023FCDE /* PaintingFarshchian8@3x.jpg */,
+				11EE54511EA1C83F0023FCDE /* Wall.jpg */,
+				11EE54521EA1C83F0023FCDE /* Wall@2x.jpg */,
+				11EE54531EA1C83F0023FCDE /* Wall@3x.jpg */,
+				11BDBB031EA421E000F441A0 /* settings.png */,
+				11BDBB051EA421F800F441A0 /* newAlarm.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		11EE54491E9C2A26009A3A8E = {
+			isa = PBXGroup;
+			children = (
+				11EE54541E9C2A26009A3A8E /* AdhanAlarm */,
+				11EE54531E9C2A26009A3A8E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11EE54531E9C2A26009A3A8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11EE54521E9C2A26009A3A8E /* AdhanAlarm.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11EE54541E9C2A26009A3A8E /* AdhanAlarm */ = {
+			isa = PBXGroup;
+			children = (
+				11EE54191E9EE7980023FCDE /* AdhanAlarm.entitlements */,
+				11EE54551E9C2A26009A3A8E /* AppDelegate.swift */,
+				11EE541E1EA06DCD0023FCDE /* SettingsTVC.swift */,
+				11EE54201EA112790023FCDE /* BackgoundVC.swift */,
+				11EE54221EA112F30023FCDE /* SoundsVC.swift */,
+				11EE546D1E9C7344009A3A8E /* Alarm.swift */,
+				11BDBB091EA432EF00F441A0 /* WindowExtension.swift */,
+				11EE541C1EA06CEE0023FCDE /* Settings.bundle */,
+				11EE546F1E9DC6DE009A3A8E /* EditAlarmVC.swift */,
+				11EE546B1E9C2E4B009A3A8E /* AddAlarmVC.swift */,
+				11EE54571E9C2A26009A3A8E /* AlarmTVC.swift */,
+				11EE54691E9C2BD0009A3A8E /* CellVC.swift */,
+				11EE54671E9C2B2A009A3A8E /* SettingVC.swift */,
+				11EE54131E9EADE30023FCDE /* DateExtension.swift */,
+				11EE54591E9C2A27009A3A8E /* Main.storyboard */,
+				11EE54811EA1D3280023FCDE /* Sounds */,
+				11EE54151E9EDEC70023FCDE /* bye-bye.wav */,
+				11EE54261EA1C82A0023FCDE /* Images */,
+				11EE545C1E9C2A27009A3A8E /* Assets.xcassets */,
+				11EE545E1E9C2A27009A3A8E /* LaunchScreen.storyboard */,
+				11EE54611E9C2A27009A3A8E /* Info.plist */,
+			);
+			path = AdhanAlarm;
+			sourceTree = "<group>";
+		};
+		11EE54811EA1D3280023FCDE /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				11EE549C1EA1D3630023FCDE /* Abdul-Basit.wav */,
+				11EE549D1EA1D3630023FCDE /* Abdul-Ghaffar.wav */,
+				11EE549E1EA1D3630023FCDE /* Abdul-Hakam.wav */,
+				11EE549F1EA1D3630023FCDE /* Adhan Alaqsa.wav */,
+				11EE54A01EA1D3630023FCDE /* Adhan Egypt.wav */,
+				11EE54A11EA1D3630023FCDE /* Adhan Madina.wav */,
+				11EE54A21EA1D3630023FCDE /* Adhan Makkah.wav */,
+				11EE54A31EA1D3630023FCDE /* Al-Hossaini.wav */,
+				11EE54A41EA1D3630023FCDE /* Hafez.wav */,
+				11EE54A51EA1D3630023FCDE /* Menshavi.wav */,
+				11EE54A61EA1D3630023FCDE /* Naghshbandi.wav */,
+				11EE54A71EA1D3630023FCDE /* Sharif Doman.wav */,
+				11EE54A81EA1D3630023FCDE /* Yusuf Islam.wav */,
+				11EE54821EA1D34D0023FCDE /* Aghati.wav */,
+				11EE54831EA1D34D0023FCDE /* Ghelvash.wav */,
+				11EE54841EA1D34D0023FCDE /* Kazem-Zadeh.wav */,
+				11EE54861EA1D34D0023FCDE /* Moazzen-Zadeh Ardabili.wav */,
+				11EE54871EA1D34D0023FCDE /* Mohammad-Zadeh.wav */,
+				11EE54881EA1D34D0023FCDE /* Rezaeian.wav */,
+				11EE54891EA1D34D0023FCDE /* Rowhani-Nejad.wav */,
+				11EE548A1EA1D34D0023FCDE /* Salimi.wav */,
+				11EE548B1EA1D34D0023FCDE /* Sharif.wav */,
+				11EE548C1EA1D34D0023FCDE /* Sobhdel.wav */,
+				11EE548D1EA1D34D0023FCDE /* Tasvieh-Chi.wav */,
+				11EE548E1EA1D34D0023FCDE /* Tookhi.wav */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11EE54511E9C2A26009A3A8E /* AdhanAlarm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11EE54641E9C2A27009A3A8E /* Build configuration list for PBXNativeTarget "AdhanAlarm" */;
+			buildPhases = (
+				11EE544E1E9C2A26009A3A8E /* Sources */,
+				11EE544F1E9C2A26009A3A8E /* Frameworks */,
+				11EE54501E9C2A26009A3A8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdhanAlarm;
+			productName = AdhanAlarm;
+			productReference = 11EE54521E9C2A26009A3A8E /* AdhanAlarm.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11EE544A1E9C2A26009A3A8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Alma;
+				TargetAttributes = {
+					11EE54511E9C2A26009A3A8E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = A376FP7M6Q;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 11EE544D1E9C2A26009A3A8E /* Build configuration list for PBXProject "AdhanAlarm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11EE54491E9C2A26009A3A8E;
+			productRefGroup = 11EE54531E9C2A26009A3A8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11EE54511E9C2A26009A3A8E /* AdhanAlarm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11EE54501E9C2A26009A3A8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11EE547F1EA1C83F0023FCDE /* Wall@2x.jpg in Resources */,
+				118A66C81EA474C400EBC9FD /* email@3x.jpg in Resources */,
+				11EE54661EA1C83F0023FCDE /* Mosque7.jpg in Resources */,
+				11EE54601E9C2A27009A3A8E /* LaunchScreen.storyboard in Resources */,
+				11EE54781EA1C83F0023FCDE /* PaintingFarshchian7.jpg in Resources */,
+				11EE54701EA1C83F0023FCDE /* PaintingFarshchian3@2x.jpg in Resources */,
+				11EE54771EA1C83F0023FCDE /* PaintingFarshchian6@3x.jpg in Resources */,
+				11EE547B1EA1C83F0023FCDE /* PaintingFarshchian8.jpg in Resources */,
+				11EE54AB1EA1D3630023FCDE /* Abdul-Hakam.wav in Resources */,
+				11EE545F1EA1C83F0023FCDE /* Mosque3@3x.jpg in Resources */,
+				11EE54901EA1D34D0023FCDE /* Ghelvash.wav in Resources */,
+				11EE545C1EA1C83F0023FCDE /* Hasht Behesht@3x.jpg in Resources */,
+				11EE54981EA1D34D0023FCDE /* Sharif.wav in Resources */,
+				11EE54AF1EA1D3630023FCDE /* Adhan Makkah.wav in Resources */,
+				11EE54621EA1C83F0023FCDE /* Mosque4@3x.jpg in Resources */,
+				11EE546D1EA1C83F0023FCDE /* Mosque12@2x.jpg in Resources */,
+				11EE545D1E9C2A27009A3A8E /* Assets.xcassets in Resources */,
+				11EE54971EA1D34D0023FCDE /* Salimi.wav in Resources */,
+				11EE54741EA1C83F0023FCDE /* PaintingFarshchian5@3x.jpg in Resources */,
+				11EE54571EA1C83F0023FCDE /* Emam Reza(a) Shrine2.jpg in Resources */,
+				11EE54B01EA1D3630023FCDE /* Al-Hossaini.wav in Resources */,
+				11EE54551EA1C83F0023FCDE /* Emam Reza(a) Shrine1@2x.jpg in Resources */,
+				11EE54591EA1C83F0023FCDE /* Emam Reza(a) Shrine2@3x.jpg in Resources */,
+				11EE54541EA1C83F0023FCDE /* Emam Reza(a) Shrine1.jpg in Resources */,
+				11EE54601EA1C83F0023FCDE /* Mosque4.jpg in Resources */,
+				11EE54761EA1C83F0023FCDE /* PaintingFarshchian6@2x.jpg in Resources */,
+				11EE54AC1EA1D3630023FCDE /* Adhan Alaqsa.wav in Resources */,
+				11EE54641EA1C83F0023FCDE /* Mosque5@2x.jpg in Resources */,
+				11EE548F1EA1D34D0023FCDE /* Aghati.wav in Resources */,
+				11EE54A91EA1D3630023FCDE /* Abdul-Basit.wav in Resources */,
+				11EE545D1EA1C83F0023FCDE /* Mosque3.jpg in Resources */,
+				11EE546B1EA1C83F0023FCDE /* Mosque9@3x.jpg in Resources */,
+				118A66CD1EA47A1900EBC9FD /* 1@2x.jpg in Resources */,
+				11EE54631EA1C83F0023FCDE /* Mosque5.jpg in Resources */,
+				11EE546C1EA1C83F0023FCDE /* Mosque12.jpg in Resources */,
+				11EE546E1EA1C83F0023FCDE /* Mosque12@3x.jpg in Resources */,
+				11EE54671EA1C83F0023FCDE /* Mosque7@2x.jpg in Resources */,
+				11EE54AA1EA1D3630023FCDE /* Abdul-Ghaffar.wav in Resources */,
+				11EE54AE1EA1D3630023FCDE /* Adhan Madina.wav in Resources */,
+				11EE54801EA1C83F0023FCDE /* Wall@3x.jpg in Resources */,
+				11EE545B1E9C2A27009A3A8E /* Main.storyboard in Resources */,
+				11EE54731EA1C83F0023FCDE /* PaintingFarshchian5@2x.jpg in Resources */,
+				11EE54941EA1D34D0023FCDE /* Mohammad-Zadeh.wav in Resources */,
+				11EE54581EA1C83F0023FCDE /* Emam Reza(a) Shrine2@2x.jpg in Resources */,
+				11EE545E1EA1C83F0023FCDE /* Mosque3@2x.jpg in Resources */,
+				11EE54721EA1C83F0023FCDE /* PaintingFarshchian5.jpg in Resources */,
+				110CE43F1EA3F1E700AB7244 /* StopButton@3x.png in Resources */,
+				118A66CE1EA47A1900EBC9FD /* 1@3x.jpg in Resources */,
+				11EE546F1EA1C83F0023FCDE /* PaintingFarshchian3.jpg in Resources */,
+				11EE547E1EA1C83F0023FCDE /* Wall.jpg in Resources */,
+				11EE54951EA1D34D0023FCDE /* Rezaeian.wav in Resources */,
+				11EE54681EA1C83F0023FCDE /* Mosque7@3x.jpg in Resources */,
+				110CE43E1EA3F1E700AB7244 /* StopButton@2x.png in Resources */,
+				110CE4381EA3F1D400AB7244 /* PlayButton@2x.png in Resources */,
+				11EE54611EA1C83F0023FCDE /* Mosque4@2x.jpg in Resources */,
+				11EE545B1EA1C83F0023FCDE /* Hasht Behesht@2x.jpg in Resources */,
+				11BDBB061EA421F800F441A0 /* newAlarm.png in Resources */,
+				11EE545A1EA1C83F0023FCDE /* Hasht Behesht.jpg in Resources */,
+				11EE54B11EA1D3630023FCDE /* Hafez.wav in Resources */,
+				11EE54161E9EDEC70023FCDE /* bye-bye.wav in Resources */,
+				11EE54B21EA1D3630023FCDE /* Menshavi.wav in Resources */,
+				11EE54961EA1D34D0023FCDE /* Rowhani-Nejad.wav in Resources */,
+				11EE541D1EA06CEE0023FCDE /* Settings.bundle in Resources */,
+				11EE54B41EA1D3630023FCDE /* Sharif Doman.wav in Resources */,
+				11EE54561EA1C83F0023FCDE /* Emam Reza(a) Shrine1@3x.jpg in Resources */,
+				11EE54691EA1C83F0023FCDE /* Mosque9.jpg in Resources */,
+				110CE4371EA3F1D400AB7244 /* PlayButton.png in Resources */,
+				11EE54711EA1C83F0023FCDE /* PaintingFarshchian3@3x.jpg in Resources */,
+				11EE549A1EA1D34D0023FCDE /* Tasvieh-Chi.wav in Resources */,
+				11EE54991EA1D34D0023FCDE /* Sobhdel.wav in Resources */,
+				11EE549B1EA1D34D0023FCDE /* Tookhi.wav in Resources */,
+				110CE4391EA3F1D400AB7244 /* PlayButton@3x.png in Resources */,
+				118A66C71EA474C400EBC9FD /* email@2x.jpg in Resources */,
+				11EE546A1EA1C83F0023FCDE /* Mosque9@2x.jpg in Resources */,
+				11EE54911EA1D34D0023FCDE /* Kazem-Zadeh.wav in Resources */,
+				11EE547C1EA1C83F0023FCDE /* PaintingFarshchian8@2x.jpg in Resources */,
+				11EE54751EA1C83F0023FCDE /* PaintingFarshchian6.jpg in Resources */,
+				11EE54B51EA1D3630023FCDE /* Yusuf Islam.wav in Resources */,
+				11EE54B31EA1D3630023FCDE /* Naghshbandi.wav in Resources */,
+				118A66CC1EA47A1900EBC9FD /* 1.jpg in Resources */,
+				11EE54931EA1D34D0023FCDE /* Moazzen-Zadeh Ardabili.wav in Resources */,
+				11EE54651EA1C83F0023FCDE /* Mosque5@3x.jpg in Resources */,
+				11EE547D1EA1C83F0023FCDE /* PaintingFarshchian8@3x.jpg in Resources */,
+				11EE54791EA1C83F0023FCDE /* PaintingFarshchian7@2x.jpg in Resources */,
+				11BDBB041EA421E000F441A0 /* settings.png in Resources */,
+				110CE43D1EA3F1E700AB7244 /* StopButton.png in Resources */,
+				11BDBB081EA4223400F441A0 /* Alarmnew2.png in Resources */,
+				11EE54AD1EA1D3630023FCDE /* Adhan Egypt.wav in Resources */,
+				118A66C61EA474C400EBC9FD /* email.jpg in Resources */,
+				11EE547A1EA1C83F0023FCDE /* PaintingFarshchian7@3x.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11EE544E1E9C2A26009A3A8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11EE546A1E9C2BD0009A3A8E /* CellVC.swift in Sources */,
+				11EE54141E9EADE30023FCDE /* DateExtension.swift in Sources */,
+				11EE54581E9C2A26009A3A8E /* AlarmTVC.swift in Sources */,
+				11EE546C1E9C2E4B009A3A8E /* AddAlarmVC.swift in Sources */,
+				11EE54681E9C2B2A009A3A8E /* SettingVC.swift in Sources */,
+				11BDBB0A1EA432EF00F441A0 /* WindowExtension.swift in Sources */,
+				11EE54561E9C2A26009A3A8E /* AppDelegate.swift in Sources */,
+				11EE546E1E9C7344009A3A8E /* Alarm.swift in Sources */,
+				11EE54211EA112790023FCDE /* BackgoundVC.swift in Sources */,
+				11EE54701E9DC6DE009A3A8E /* EditAlarmVC.swift in Sources */,
+				11EE541F1EA06DCD0023FCDE /* SettingsTVC.swift in Sources */,
+				11EE54231EA112F30023FCDE /* SoundsVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		11EE54591E9C2A27009A3A8E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11EE545A1E9C2A27009A3A8E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		11EE545E1E9C2A27009A3A8E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11EE545F1E9C2A27009A3A8E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11EE54621E9C2A27009A3A8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		11EE54631E9C2A27009A3A8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11EE54651E9C2A27009A3A8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AdhanAlarm/AdhanAlarm.entitlements;
+				DEVELOPMENT_TEAM = A376FP7M6Q;
+				INFOPLIST_FILE = AdhanAlarm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Com.Alma.AdhanAlarm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		11EE54661E9C2A27009A3A8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AdhanAlarm/AdhanAlarm.entitlements;
+				DEVELOPMENT_TEAM = A376FP7M6Q;
+				INFOPLIST_FILE = AdhanAlarm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Com.Alma.AdhanAlarm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11EE544D1E9C2A26009A3A8E /* Build configuration list for PBXProject "AdhanAlarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11EE54621E9C2A27009A3A8E /* Debug */,
+				11EE54631E9C2A27009A3A8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11EE54641E9C2A27009A3A8E /* Build configuration list for PBXNativeTarget "AdhanAlarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11EE54651E9C2A27009A3A8E /* Debug */,
+				11EE54661E9C2A27009A3A8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11EE544A1E9C2A26009A3A8E /* Project object */;
+}
